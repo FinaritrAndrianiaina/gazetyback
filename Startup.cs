@@ -61,6 +61,7 @@ namespace GazetyBack
                    {
                        builder
                         .AllowAnyOrigin()
+                        .AllowAnyMethod()
                         .AllowAnyHeader();
                    }
                );
